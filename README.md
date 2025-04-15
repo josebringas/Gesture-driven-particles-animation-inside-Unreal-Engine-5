@@ -31,5 +31,5 @@ And why using gestures? (Other than it looks cool!) ...I truly think this workfl
 
 This work is still in progress. New features includes Niagara Particles driven by gestures and potentially, adding collision on top of that.
 
-![2025-04-0914-30-47-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e1e2558e-a7b5-4fda-b78a-f30b7b8a9d41)
+![2025-04-0914-30-47-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/08ac0741-436c-47ca-8433-d23388ea6d57)
 
