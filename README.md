@@ -21,7 +21,7 @@ Once, we are able to visualize these values, a bit more work is needed. Before a
 
 On the other hand (because we want to get creative) I added a function to read audio input inside UE5 and pass those values to change the behaviour of our 'BP_Receiver' again. in this case, translating its z-axis.
 
-![2025-04-1512-18-00-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f751ff8a-5c54-448c-9713-143729a53d5e)
+![2025-04-1512-18-00-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/88c37293-cfb6-4d82-9c25-577db7151d4f)
 
 So, based on these actions can you guess what I'm trying to do? 
 
