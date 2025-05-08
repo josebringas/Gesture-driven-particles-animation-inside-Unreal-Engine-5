@@ -1,11 +1,19 @@
 # Gesture-driven-particles-animation-inside-Unreal-Engine-5
-Use computer vision libraries for object/motion tracking to drive real-time animations inside a game engine.
+This case study focuses on expanding ways to interact with digital environments by mapping physical gestures and kinetic movement to real-time changes in 3D assets inside Unreal Engine. My system attemps to detect sample objects, extract meaningful data and send them to the engine via OSC protocol. We'll explore that option here.
 
-## 1. Set up object tracking script
+Why bother doing this? translating physical gestures into real-time digital interactions is nothing new, but as technology evolves, so does possibilities to explore game engine rendering animation quality powered by computer vision capabilities to drive in-game VFX, interactive installations or other live performative experiences. Endless possiblities lies ahead guys...
 
-First thing is to set up a script with MediaPipe library to create and detect landmarks on the face. Thankfully, this library does this job for us by creating keypoints in a human face. In this case, we're taking the tip of the nose as a reference point for our motion tracking only for the horizontal axis, that's what interests us.
+## 1. Data Preprocessing
 
-Then we set up an initial neutral position for the center of the nose (let's call it 'nose_X'). If we run the script, we will be able to see how by rotating the head, we get positive/negative float values. :) ...The whole idea is to map the displacement of my nose dinamically.
+First, we need to get a live camera feed and do some filtering & cleaning like removing noise, labelling data, normalizing data (truly important if sending to external programs like UE5) and smoothing data (to avoid jitter). I'm providing these blocks in the py script attached so don't worry; structured and labelled code with comments has been added.
+
+![github_01-ezgif com-crop](https://github.com/user-attachments/assets/f4923e30-5a19-4ac5-baf3-1e72010edcc0)
+
+I've tried both YOLO and Mediapipe library for the detections but I'm sticking to Mediapipe for now. Both offer good tradeoffs and persoanlly, I'm using YOLO for more advanced detections (like to track specific objects that otherwise pre-trained models like Mediapipe won't be able to do it).
+
+We're detecting 1 hand and calculating its bounding box per frame. Also, we're picking up 1 sample object, a lime (why not!), calculating its 2D position on the screen and inferring its depth by the size of the bounding box. Larger box means it's closer to the webcam, has a higher numerical value and viceversa. 
+
+Have anybody wondered why I have a black glove on my other hand holding the lime? Because Mediapipe and machine are intelligent, but not enough to recognize that as a hand. Lastly, What's the point of normalizing values [0,1] ? we don't want to send raw values to the external package that can potentially offset or misalign the position of our assets especially in a 3D world environment. It's preferable to normalize values first and inside the external software to apply as many changes to the coming values as wished.
 
 ![Screenshot 2025-04-15 120651](https://github.com/user-attachments/assets/43d18b4a-9fed-49e6-8247-d047adfd0fb1)
 
