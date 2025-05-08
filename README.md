@@ -27,7 +27,8 @@ A blueprint logic setup is provided here as well. The main idea is to effectivel
 
 ![2025-04-1512-18-00-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/88c37293-cfb6-4d82-9c25-577db7151d4f)
 
-So, based on these actions can you guess what I'm trying to do? 
+So, based on these actions can you guess what I'm trying to do? For the image below, I added a built-in UE5 function to capture sound, get a numerical amplitude value of it and use it to change the number of spawned particles emiited at a time.
 
 ![2025-04-0914-30-47-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/08ac0741-436c-47ca-8433-d23388ea6d57)
+
 
