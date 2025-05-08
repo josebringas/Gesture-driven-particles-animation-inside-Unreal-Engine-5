@@ -19,7 +19,7 @@ Have anybody wondered why I have a black glove on my other hand holding the lime
 
 Ok, how to visualize those values inside Unreal Engine 5? First, let's enable OSC which is a popular communication protocol in networking (to simplify: it's meant to let machines "talk" and receieve data each other). Toggle it on inside UE5 and we're good to go. 
 
-![Screenshot 2025-04-15 120809](https://github.com/user-attachments/assets/b6f9b086-bbf3-412b-ac17-45ad36806878)
+![Screenshot 2025-04-15 120744](https://github.com/user-attachments/assets/abd81f34-3e0a-46e5-94cd-304a74831098)
 
 To receieve this values we'll need to create a "server", the entrypoint inside UE5 to receieve, decode and use the upcoming values inside the blueprint logic. With this setup we can trigger blueprint events at any time Unreal detects new data feeding the logic. From this point, is up to the developer to properly set up the parameters and actors to be directly affected by any input data. In my case, the values extracted for the lime sample are mapped to drive x,y,z axis values for a particle system in the 3D world. 
 
