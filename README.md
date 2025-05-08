@@ -29,11 +29,5 @@ A blueprint logic setup is provided here as well. The main idea is to effectivel
 
 So, based on these actions can you guess what I'm trying to do? 
 
-For me, the idea is to dinamically change the behavour of a 3D asset in real-time. By behaviour we mean position, rotation, scale, or any other measureable variable that a 3D object have. 
-
-And why using gestures? (Other than it looks cool!) ...I truly think this workflow offers flexibility to create animations and interactions between objects that traditional means (splines or keyframing) cannot provide. It allows a more 'organic' interaction between machine and human. 
-
-This work is still in progress. New features includes Niagara Particles driven by gestures and potentially, adding collision on top of that.
-
 ![2025-04-0914-30-47-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/08ac0741-436c-47ca-8433-d23388ea6d57)
 
