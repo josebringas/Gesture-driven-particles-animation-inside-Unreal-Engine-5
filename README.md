@@ -17,6 +17,8 @@ Then, we clean and prep the data:
 
 * **Smoothing** (to avoid jittery, chaotic movements)
 
+![github_01-ezgif com-crop](https://github.com/user-attachments/assets/f4923e30-5a19-4ac5-baf3-1e72010edcc0)
+
 All of this is handled in the Python script attached—don’t stress. It’s structured, commented, and ready to roll.
 I've tested both YOLO and MediaPipe for detection. MediaPipe is my go-to here because it’s lightweight and fast. YOLO is great for advanced detections, especially for tracking specific objects that MediaPipe's pre-trained models might not recognize.
 
@@ -37,8 +39,6 @@ This gives us four values. We label and normalize them before sending them to Un
 
 💡 *Why normalize values to [0, 1]?*
 > Raw values can cause scaling issues in 3D. Normalization ensures more predictable behavior when manipulating virtual assets.
-
-![github_01-ezgif com-crop](https://github.com/user-attachments/assets/f4923e30-5a19-4ac5-baf3-1e72010edcc0)
 
 ## 2. What Happens Inside UE5?
 
