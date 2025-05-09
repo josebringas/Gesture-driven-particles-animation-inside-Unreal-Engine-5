@@ -68,12 +68,23 @@ Simple setup, super satisfying results.
 
 ![2025-04-0914-30-47-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/08ac0741-436c-47ca-8433-d23388ea6d57)
 
-33 3. Wrapping It Up
+## 3. Wrapping It Up
 
 This project is a playground. It’s a gesture-tracking, object-following, particle-spawning experiment in real-time digital puppeteering. The code and Blueprints are there for you to remix, extend, and explore!
 
 ![github_03_b_gif](https://github.com/user-attachments/assets/6be5486d-caaa-4fe8-a8a0-e75aa474fba4)
 
+## 4. Code of Use
+
+This project is shared with the intention of fostering learning, adaptation, and thoughtful integration into creative or technical pipelines.
+
+You are welcome to explore, learn from, and build upon this work. However, I kindly ask that if you:
+
+ - Use this code in a project or derivative work — please **credit** the original repository and methodology.
+ - Share or remix this work — do so in a way that **acknowledges** the design intent and conceptual framework.
+ - Reuse significant portions of the system — consider how it **fits your context** instead of copy-pasting blindly.
+
+This is not just code; it’s part of a larger system of thought and experimentation. Please respect the time, care, and philosophy behind it.
 
 
 
