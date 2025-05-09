@@ -56,8 +56,7 @@ To receive incoming values:
 * You can then trigger events or update parameters based on that data.
 
 In my setup, the values extracted from the lime drive the X, Y, and Z axis values of a particle system. The Blueprint logic to do this is also included in the repo. 🧩
-Once the system is running, any value coming in from Python can affect a visual property in Unreal—position, color, scale, physics behavior—you name it. The more complex the 3D asset, the more expressive your interaction can be.
-Ok, how to visualize those values inside Unreal Engine 5? First, let's enable OSC which is a popular communication protocol in networking (to simplify: it's meant to let machines "talk" and receieve data each other). Toggle it on inside UE5 and we're good to go. 
+Once the system is running, any value coming in from Python can affect a visual property in Unreal—position, color, scale, physics behavior—you name it. The more complex the 3D asset, the more expressive your interaction can be. 
 
 ![2025-04-1512-18-00-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/88c37293-cfb6-4d82-9c25-577db7151d4f)
 
