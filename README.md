@@ -81,8 +81,6 @@ This project is shared with the intention of fostering learning, adaptation, and
 You are welcome to explore, learn from, and build upon this work. However, I kindly ask that if you:
 
  - Use this code in a project or derivative work — please **credit** the original repository and methodology.
- - Share or remix this work — do so in a way that **acknowledges** the design intent and conceptual framework.
- - Reuse significant portions of the system — consider how it **fits your context** instead of copy-pasting blindly.
 
 This is not just code; it’s part of a larger system of thought and experimentation. Please respect the time, care, and philosophy behind it.
 
