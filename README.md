@@ -88,10 +88,10 @@ cap = cv2.VideoCapture(1)  # Change to 0 if using built-in webcam
 
 ## YOLO-Based Hand Detection (Alternative Version)
 An alternate version of this system uses a custom-trained YOLOv8 model for hand detection.
-* Training Dataset: The model was trained using a curated public hand detection dataset collected and annotated through (Roboflow)[https://universe.roboflow.com/work-tbypc/handdetection-qycc7].
-* Synthetic Data Augmentation: We used the powerful (Albumentations)[https://albumentations.ai] library to augment the training set, introducing controlled variation in lighting, blur, noise, and occlusion, making the detector more robust in real-world scenarios.
+* Training Dataset: The model was trained using a curated public hand detection dataset collected and annotated through [Roboflow](https://universe.roboflow.com/work-tbypc/handdetection-qycc7).
+* Synthetic Data Augmentation: We used the powerful [Albumentations](https://albumentations.ai) library to augment the training set, introducing controlled variation in lighting, blur, noise, and occlusion, making the detector more robust in real-world scenarios.
 * Model Variant: YOLOv8n (nano) was selected for real-time inference on CPU/GPU.
-* Training Pipeline: View the complete training pipeline in this (Google Colab notebook)[https://colab.research.google.com/drive/1SYHiaUX-SddGqV_st1q_J8F7oNHcjfLN#scrollTo=hUMicYRBHWqU], which includes:
+* Training Pipeline: View the complete training pipeline in this [Google Colab notebook](https://colab.research.google.com/drive/1SYHiaUX-SddGqV_st1q_J8F7oNHcjfLN#scrollTo=hUMicYRBHWqU), which includes:
   * Dataset upload and preprocessing
   * Data augmentation via Albumentations
   * Model training and validation
