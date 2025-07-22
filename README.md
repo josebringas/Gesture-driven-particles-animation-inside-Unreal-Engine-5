@@ -101,3 +101,6 @@ An alternate version of this system uses a custom-trained YOLOv8 model for hand 
 
 ![Screenshot 2025-05-30 173325](https://github.com/user-attachments/assets/799eaae0-c8aa-4da4-803d-b83f79ea0a92)
 
+## Acknowledgments
+
+[Yu Fujishiro}(https://yufujishiro.com/teaching) workflow OSC + Unreal Engine 5
